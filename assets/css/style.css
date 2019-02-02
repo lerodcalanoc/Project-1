@@ -9,17 +9,26 @@ body {
 
 }
 
+.jumbotron {
+    margin-top: 3%
+
+
+} 
+
+
 .column {
     float: left;
-    width: 50%;
+    width: 45%;
     padding: 10px;
     height: 300px; 
+    
 }
   
 .row:after {
     content: "";
     display: table;
     clear: both;
+
 }
 
 
@@ -33,4 +42,15 @@ footer {
     height: 30px 0;
     border-radius: 5px
 }
-    
+
+#food-data1 {
+    background: #aaaa;
+    margin-right: 10%
+  
+}
+
+
+#food-data2 {
+    background: #bbbbbb
+
+}
